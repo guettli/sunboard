@@ -1,0 +1,10 @@
+.item {
+
+}
+
+.item-border-div {
+    position: absolute;
+    padding: 0.1em;
+    background-color: blue;
+    cursor: move;
+}
