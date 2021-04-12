@@ -1,0 +1,7 @@
+node_modules
+tmp
+staticfiles/
+*.egg-info/
+__pycache__
+.coverage
+coverage_html_report/
