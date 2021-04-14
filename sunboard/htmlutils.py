@@ -60,9 +60,11 @@ def empty_page(content):
     {content}
     <script src="https://unpkg.com/htmx.org@1.3.3/dist/htmx.min.js" integrity="sha384-QrlPmoLqMVfnV4lzjmvamY0Sv/Am8ca1W7veO++Sp6PiIGixqkD+0xZ955Nc03qO" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    
+    <script src="https://unpkg.com/interactjs@1.10.11/dist/interact.min.js" integrity="sha384-LqpTUp2dBNxqY7IYl4r0m6IegZjlkQgpMo6VAoHYgLTewlETlLaHd3DfywaLNy9J" crossorigin="anonymous"></script>
+    <script src="{sunboard_js}"></script>
   </body>
-</html>''', content=content, sunboard_css=static('sunboard/sunboard.css')))
+</html>''', content=content, sunboard_css=static('sunboard/sunboard.css'),
+                                    sunboard_js=static('sunboard/sunboard.js')))
 
 
 def link(obj):

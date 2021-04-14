@@ -4,7 +4,8 @@
 
 .item-border-div {
     position: absolute;
-    padding: 0.1em;
+    padding: 3em .1em .1em .1em;
     background-color: blue;
     cursor: move;
+    border: 2px solid red;
 }

@@ -31,7 +31,7 @@ def board_page(request, board_id):
                                   ))
 
 def item_html(item):
-    return format_html('''<div class="item-border-div" style="right: {x}em; top: {y}em"><textarea class="item">{text}</textarea></div>''',
+    return format_html('''<div class="item-border-div draggable " style="left: {x}em; top: {y}em"><textarea class="item">{text}</textarea></div>''',
                        text=item.text, x=item.x, y=item.y)
 
 def add_item_hx(request, board_id):
